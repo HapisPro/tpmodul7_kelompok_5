@@ -21,6 +21,8 @@ namespace tpmodul7_kelompok_5
             kuliahBintang.ReadJSON();
             Console.WriteLine("");
 
+            DataMahasiswa_103022300094 syarif = new DataMahasiswa_103022300094();
+            syarif.ReadJSON();
         }
     }
 }
