@@ -12,6 +12,11 @@ namespace tpmodul7_kelompok_5
             hafizh.ReadJSON();
             Console.WriteLine("");
             kuliahHafizh.ReadJSON();
+            Console.WriteLine("");
+
+            DataMahasiswa_103022300058 bintang = new DataMahasiswa_103022300058();
+            bintang.ReadJSON();
+
         }
     }
 }
