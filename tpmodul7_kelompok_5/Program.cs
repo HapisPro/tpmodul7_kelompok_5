@@ -8,8 +8,10 @@ namespace tpmodul7_kelompok_5
         static void Main(string[] args)
         {
             DataMahasiswa_103022300069 hafizh = new DataMahasiswa_103022300069();
+            KuliahMahasiswa_103022300069 kuliahHafizh = new KuliahMahasiswa_103022300069();
             hafizh.ReadJSON();
-            //Console.WriteLine(AppContext.BaseDirectory);
+            Console.WriteLine("");
+            kuliahHafizh.ReadJSON();
         }
     }
 }
