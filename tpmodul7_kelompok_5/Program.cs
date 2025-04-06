@@ -36,7 +36,11 @@ namespace tpmodul7_kelompok_5
             Console.WriteLine("");
 
             DataMahasiswa_103022300003 albert = new DataMahasiswa_103022300003();
+            KuliahMahasiswa_103022300003 kuliahAlbert = new KuliahMahasiswa_103022300003();
             albert.ReadJSON();
+            Console.WriteLine("");
+            kuliahAlbert.ReadJSON();
+            Console.WriteLine("");
         }
     }
 }
