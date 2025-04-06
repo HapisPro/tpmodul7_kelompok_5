@@ -16,7 +16,7 @@ namespace tpmodul7_kelompok_5.models
             string filePath = Path.GetFullPath("../../../../datas/tp7_2_103022300094.json");
             string jsonString = File.ReadAllText(filePath);
 
-            KuliahMahasiswa_103022300094 courseList = JsonSerializer.Deserialize<KuliahMahasiswa_103022300058>(jsonString);
+            KuliahMahasiswa_103022300094 courseList = JsonSerializer.Deserialize<KuliahMahasiswa_103022300094>(jsonString);
 
             int i = 1;
             foreach (var course in courseList.courses)
