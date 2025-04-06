@@ -1,4 +1,5 @@
 ﻿using System;
+using tpmodul7_kelompok_5.models;
 
 namespace tpmodul7_kelompok_5
 {
@@ -6,7 +7,9 @@ namespace tpmodul7_kelompok_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
+            DataMahasiswa_103022300069 hafizh = new DataMahasiswa_103022300069();
+            hafizh.ReadJSON();
+            //Console.WriteLine(AppContext.BaseDirectory);
         }
     }
 }
