@@ -27,6 +27,9 @@ namespace tpmodul7_kelompok_5
             Console.WriteLine("");
             kuliahSyarif.ReadJSON();
             Console.WriteLine("");
+
+            DataMahasiswa_103022300127 Hizkia = new DataMahasiswa_103022300127();
+            Hizkia.ReadJSON();
         }
     }
 }
