@@ -1,32 +1,28 @@
 {
 	"courses": [
 		{
-			"code": "CRI2C4",
+			"code": "CCK2KAB4",
 			"name": "Konstruksi Perangkat Lunak"
 		},
 		{
-			"code": "kode_matkul_2",
-			"name": "nama_matkul_2"
+			"code": "CCK2FAB4",
+			"name": "Arsitektur dan Desain Perangkat Lunak"
 		},
 		{
-			"code": "kode_matkul_3",
-			"name": "nama_matkul_3"
+			"code": "CCK2HAB4",
+			"name": "Basis Data"
 		},
 		{
-			"code": "kode_matkul_4",
-			"name": "nama_matkul_4"
+			"code": "CCK2LAB3",
+			"name": "Kecerdasan Buatan"
 		},
 		{
-			"code": "kode_matkul_5",
-			"name": "nama_matkul_5"
+			"code": "CCK2IAB3",
+			"name": "Dasar Jaringan Komputer"
 		},
 		{
-			"code": "kode_matkul_6",
-			"name": "nama_matkul_6"
-		},
-		{
-			"code": "kode_matkul_7",
-			"name": "nama_matkul_7"
+			"code": "CCK2JAC2",
+			"name": "Proyek Tingkat II"
 		}
 	]
 }
