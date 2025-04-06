@@ -15,12 +15,18 @@ namespace tpmodul7_kelompok_5
             Console.WriteLine("");
 
             DataMahasiswa_103022300058 bintang = new DataMahasiswa_103022300058();
-            KuliahMahasiswa_103022300069 kuliahBintang = new KuliahMahasiswa_103022300069();
+            KuliahMahasiswa_103022300058 kuliahBintang = new KuliahMahasiswa_103022300058();
             bintang.ReadJSON();
             Console.WriteLine("");
             kuliahBintang.ReadJSON();
             Console.WriteLine("");
 
+            DataMahasiswa_103022300094 syarif = new DataMahasiswa_103022300094();
+            KuliahMahasiswa_103022300094 kuliahSyarif = new KuliahMahasiswa_103022300094();
+            syarif.ReadJSON();
+            Console.WriteLine("");
+            kuliahSyarif.ReadJSON();
+            Console.WriteLine("");
         }
     }
 }
